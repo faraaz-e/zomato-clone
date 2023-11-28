@@ -1,2 +1,2 @@
 # zomato-clone
-A food delivery app clone | Tech: React Js
+A food delivery app clone | Tech: Next.js
