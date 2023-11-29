@@ -1,12 +1,10 @@
-### zomato-clone
+## zomato-clone
 
-A clone of food delivery site Zomato.
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+A clone of food delivery site Zomato built with React Library within NextJs Framework.
 
 _Disclaimer: This clone site is made for educational purpose only._
 
-## Getting Started
+### Getting Started
 
 ```bash
 npm install  
