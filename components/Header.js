@@ -29,7 +29,7 @@ const Header = () => {
             <input
               type="text"
               className="w-56 py-3 px-2 border-none focus:outline-0"
-              placeholder="Enter Location"
+              placeholder="Mumbai"
             />
           </div>
 
