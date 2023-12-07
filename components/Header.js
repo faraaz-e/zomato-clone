@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <>
-      <div className="container w-full xl:w-5/6 xl:mx-auto xl:flex xl:justify-center py-3 xl:space-x-5">
+      <div className="mx-auto max-w-7xl flex justify-center py-3 space-x-5">
         <div className="self-center">
           <img
             src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
