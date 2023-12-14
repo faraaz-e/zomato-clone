@@ -1,10 +1,9 @@
-import Header from '@/components/Header'
-import Image from 'next/image'
+import Layout from "./delivery/layout";
 
 export default function Home() {
   return (
     <>
-      <Header />
+      <Layout />
     </>
-  )
+  );
 }
