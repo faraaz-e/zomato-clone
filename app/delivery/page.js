@@ -1,8 +1,25 @@
+"use client";
+
 import CategoryList from "@/components/CategoryList";
 import RestaurantCard from "@/components/RestaurantCard";
 import { foodType, brandList } from "@/utils/categoryData";
+import { restaurantList } from "@/utils/restaurantData";
+import { useState } from "react";
 
 export default function Page() {
+  const [restData, setRestData] = useState(restaurantList);
+  const [isDataFiltered, setIsDataFiltered] = useState(false);
+
+  const handleRatingFilter = () => {
+    const ratingFilterData = restData.filter(
+      (res) => res.info.rating.aggregate_rating >= 4.0
+    );
+    isDataFiltered
+      ? setRestData(restaurantList)
+      : setRestData(ratingFilterData);
+    setIsDataFiltered(!isDataFiltered);
+  };
+
   return (
     <>
       {/** Filters */}
@@ -25,14 +42,19 @@ export default function Page() {
             </svg>
             <span className="px-2">Filters</span>
           </button>
-          <button className="border border-slate-300 py-1 px-2 rounded-lg text-slate-400 font-light flex">
+          <button
+            className={`border border-slate-300 py-1 px-2 rounded-lg font-light flex ${
+              isDataFiltered ? "text-white bg-red-400" : "text-slate-400"
+            }`}
+            onClick={handleRatingFilter}
+          >
             Rating: 4.0+
           </button>
           <button className="border border-slate-300 py-1 px-2 rounded-lg text-slate-400 font-light flex">
             Pure Veg
           </button>
           <button className="border border-slate-300 py-1 px-2 rounded-lg text-slate-400 font-light flex">
-            <span className="px-2">Cusines</span>
+            <span className="px-2">Cuisines</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -52,28 +74,32 @@ export default function Page() {
       </div>
 
       {/** Food Type Section */}
-      <div className="py-5 bg-gray-100">
-        <div className="mx-auto max-w-7xl">
-          <div className="px-28 py-5">
-            <h3 className="text-3xl font-medium">
-              Inspiration for your first order
-            </h3>
-          </div>
-          <div className="py-5 flex text-center space-x-6 pl-20">
-            <CategoryList items={foodType} />
+      {!isDataFiltered && (
+        <div className="py-5 bg-gray-100">
+          <div className="mx-auto max-w-7xl">
+            <div className="px-28 py-5">
+              <h3 className="text-3xl font-medium">
+                Inspiration for your first order
+              </h3>
+            </div>
+            <div className="py-5 flex text-center space-x-6 pl-20">
+              <CategoryList items={foodType} />
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/** Top Food brands Section */}
-      <div className="mx-auto max-w-7xl">
-        <div className="py-5 px-28">
-          <h3 className="text-3xl font-medium">Top brands for you</h3>
+      {!isDataFiltered && (
+        <div className="mx-auto max-w-7xl">
+          <div className="py-5 px-28">
+            <h3 className="text-3xl font-medium">Top brands for you</h3>
+          </div>
+          <div className="py-4 flex text-center space-x-6 pl-20">
+            <CategoryList items={brandList} />
+          </div>
         </div>
-        <div className="py-4 flex text-center space-x-6 pl-20">
-          <CategoryList items={brandList} />
-        </div>
-      </div>
+      )}
 
       {/** Delivery Restaurants Section */}
       <div className="mx-auto max-w-7xl">
@@ -82,8 +108,10 @@ export default function Page() {
             Delivery Restaurants in Mumbai
           </h3>
         </div>
-        <div className="py-4 flex space-x-3 pl-20">
-          <RestaurantCard />
+        <div className="py-4 grid grid-cols-3 gap-3 pl-20">
+          {restData.map((rest) => (
+            <RestaurantCard key={rest.info.resId} restList={rest} />
+          ))}
         </div>
       </div>
     </>
