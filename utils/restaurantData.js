@@ -1809,3 +1809,1865 @@ export const restaurantList = [
         "bottomContainers": []
     }
 ]
+
+export const diningRestaurantList = [
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 18994889,
+            "name": "Arbab",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/chains/9/18994889/bb6016bf6b06dd02955d82e865e7bd26_featured_v2.jpg",
+                "urlWithParams": "https://b.zmtcdn.com/data/pictures/chains/9/18994889/bb6016bf6b06dd02955d82e865e7bd26_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/9/18994889/520724f6bbac966f80d173521938059e_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.1",
+                "rating_text": "4.1",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "6,902",
+                "subtext": "REVIEWS",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "4.0",
+                        "reviewCount": "1,471",
+                        "reviewTextSmall": "1,471 Reviews",
+                        "subtext": "1,471 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "4.0",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.1",
+                        "reviewCount": "5,431",
+                        "reviewTextSmall": "5,431 Reviews",
+                        "subtext": "5,431 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.1",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹1,400 for two"
+            },
+            "cfo": {
+                "text": "₹400 for one"
+            },
+            "locality": {
+                "name": "Linking Road, Bandra West, Mumbai",
+                "address": "Shop 4, Plot 117, Muzzafar Manor, Linking Road, Bandra West, Mumbai",
+                "localityUrl": "mumbai/linking-road-bandra-west-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNjZcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/lebanese/",
+                    "name": "Lebanese"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzBcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/mediterranean/",
+                    "name": "Mediterranean"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNFwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/arabian/",
+                    "name": "Arabian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTYxXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/shawarma/",
+                    "name": "Shawarma"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzA0XCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/sandwich/",
+                    "name": "Sandwich"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTM3XCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/middle-eastern/",
+                    "name": "Middle Eastern"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹1,400 for two"
+            }
+        },
+        "order": [],
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/mumbai/arbab-linking-road-bandra-west/info",
+            "clickActionDeeplink": ""
+        },
+        "distance": "5.3 km",
+        "isPromoted": true,
+        "promotedText": "Promoted",
+        "trackingData": [
+            {
+                "table_name": "jadtracking",
+                "payload": "{\"banner_id\":\"2308428\",\"bzone\":\"0\",\"campaign_id\":\"11201305\",\"category_id\":\"1\",\"location_type\":\"city\",\"location_id\":\"3\",\"display_page\":\"dineout_home\",\"entity_type\":\"RESTAURANT\",\"entity_id\":\"18994889\",\"isNewAd\":\"34\",\"ad_position\":\"10\",\"slider_position\":\"10\",\"slider_sequence\":\"10\",\"creative_id\":\"0\",\"collection_id\":\"0\",\"data\":\"{\\\"type\\\":\\\"boost\\\",\\\"original_rank\\\":489,\\\"boosted_rank\\\":10}\"}",
+                "event_names": {
+                    "tap": "{\"action\":\"click\"}",
+                    "impression": "{\"action\":\"impression\"}",
+                    "served": "{\"action\":\"serve\"}"
+                }
+            },
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"1b1f037b-c37d-4326-b52c-4de7be7591c7\",\"location_type\":\"delivery_cell\",\"location_id\":\"4316646509572521984\",\"page_type\":\"dineout\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"18994889\",\"element_type\":\"listing\",\"rank\":10,\"metadata\":{\"is_ad\":\"true\"}}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [
+            {
+                "type": "booking_cta",
+                "text": "Book a Table",
+                "clickUrl": "/mumbai/arbab-linking-road-bandra-west/book"
+            },
+            {
+                "type": "chain_cta",
+                "text": "View all outlets",
+                "clickUrl": "/mumbai/restaurants/arbab?category=2"
+            }
+        ],
+        "promoOffer": "",
+        "checkBulkOffers": false,
+        "bulkOffers": [],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 20463016,
+            "name": "California Pizza Kitchen",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/6/20463016/948d501b5eb15f220027665c68b13f78_featured_v2.jpg",
+                "urlWithParams": "https://b.zmtcdn.com/data/pictures/6/20463016/948d501b5eb15f220027665c68b13f78_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/6/20463016/99c53ff79e953d9115db17f3991b148f_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "3.9",
+                "rating_text": "3.9",
+                "rating_subtitle": "Good",
+                "rating_color": "9ACD32",
+                "votes": "1,080",
+                "subtext": "REVIEW",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "4.3",
+                        "reviewCount": "478",
+                        "reviewTextSmall": "478 Reviews",
+                        "subtext": "478 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "4.3",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "3.5",
+                        "reviewCount": "602",
+                        "reviewTextSmall": "602 Reviews",
+                        "subtext": "602 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "3.5",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "600"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹1,800 for two"
+            },
+            "cfo": {
+                "text": "₹400 for one"
+            },
+            "locality": {
+                "name": "Kohinoor Square Mall, Mumbai",
+                "address": "Kohinoor Square, East Tower, Ram Ganesh Gadkari Chowk, N C. Kelkar Road, Dadar West, Mumbai",
+                "localityUrl": "mumbai/restaurants/in/kohinoor-square-mall"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/pizza/",
+                    "name": "Pizza"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMVwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/american/",
+                    "name": "American"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/italian/",
+                    "name": "Italian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA2NFwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/pasta/",
+                    "name": "Pasta"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/continental/",
+                    "name": "Continental"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTk4XCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/salad/",
+                    "name": "Salad"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/beverages/",
+                    "name": "Beverages"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/desserts/",
+                    "name": "Desserts"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹1,800 for two"
+            }
+        },
+        "order": [],
+        "gold": {
+            "instant": 20,
+            "welcome_offer": false,
+            "gold_offer": true,
+            "text": "Flat",
+            "offerValue": "20% OFF",
+            "isGoldIcon": true
+        },
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/mumbai/california-pizza-kitchen-dadar-west/info",
+            "clickActionDeeplink": ""
+        },
+        "distance": "1.7 km",
+        "isPromoted": true,
+        "promotedText": "Promoted",
+        "trackingData": [
+            {
+                "table_name": "jadtracking",
+                "payload": "{\"banner_id\":\"2951338\",\"bzone\":\"0\",\"campaign_id\":\"11844669\",\"category_id\":\"1\",\"location_type\":\"city\",\"location_id\":\"3\",\"display_page\":\"dineout_home\",\"entity_type\":\"RESTAURANT\",\"entity_id\":\"20463016\",\"isNewAd\":\"34\",\"ad_position\":\"11\",\"slider_position\":\"11\",\"slider_sequence\":\"11\",\"creative_id\":\"0\",\"collection_id\":\"0\",\"data\":\"{\\\"type\\\":\\\"boost\\\",\\\"original_rank\\\":227,\\\"boosted_rank\\\":11}\"}",
+                "event_names": {
+                    "tap": "{\"action\":\"click\"}",
+                    "impression": "{\"action\":\"impression\"}",
+                    "served": "{\"action\":\"serve\"}"
+                }
+            },
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"1b1f037b-c37d-4326-b52c-4de7be7591c7\",\"location_type\":\"delivery_cell\",\"location_id\":\"4316646509572521984\",\"page_type\":\"dineout\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"20463016\",\"element_type\":\"listing\",\"rank\":11,\"metadata\":{\"is_ad\":\"true\"}}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [
+            {
+                "type": "booking_cta",
+                "text": "Book a Table",
+                "clickUrl": "/mumbai/california-pizza-kitchen-dadar-west/book"
+            }
+        ],
+        "promoOffer": "",
+        "checkBulkOffers": false,
+        "bulkOffers": [],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 20451333,
+            "name": "All Saints",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/3/20451333/e9ecba7e6c00950d66240e735100a98e_featured_v2.jpg",
+                "urlWithParams": "https://b.zmtcdn.com/data/pictures/3/20451333/e9ecba7e6c00950d66240e735100a98e_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A"
+            },
+            "o2FeaturedImage": {
+                "url": false
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.0",
+                "rating_text": "4.0",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1,536",
+                "subtext": "REVIEW",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "4.0",
+                        "reviewCount": "1,530",
+                        "reviewTextSmall": "1,530 Reviews",
+                        "subtext": "1,530 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "4.0",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.0",
+                        "reviewCount": "6",
+                        "reviewTextSmall": "6 Reviews",
+                        "subtext": "6 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.0",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹1,800 for two"
+            },
+            "cfo": {
+                "text": "₹400 for one"
+            },
+            "locality": {
+                "name": "Khar, Mumbai",
+                "address": "Plot 757, S V Road, Khar, Mumbai",
+                "localityUrl": "mumbai/khar-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/continental/",
+                    "name": "Continental"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/italian/",
+                    "name": "Italian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTk4XCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/salad/",
+                    "name": "Salad"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTc3XCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/sushi/",
+                    "name": "Sushi"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/chinese/",
+                    "name": "Chinese"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/desserts/",
+                    "name": "Desserts"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjI3XCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/bar-food/",
+                    "name": "Bar Food"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiM1wiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/asian/",
+                    "name": "Asian"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹1,800 for two"
+            }
+        },
+        "order": [],
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/mumbai/all-saints-khar/info",
+            "clickActionDeeplink": ""
+        },
+        "distance": "5.9 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"1b1f037b-c37d-4326-b52c-4de7be7591c7\",\"location_type\":\"delivery_cell\",\"location_id\":\"4316646509572521984\",\"page_type\":\"dineout\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"20451333\",\"element_type\":\"listing\",\"rank\":12}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [
+            {
+                "type": "booking_cta",
+                "text": "Book a Table",
+                "clickUrl": "/mumbai/all-saints-khar/book"
+            }
+        ],
+        "promoOffer": "",
+        "checkBulkOffers": false,
+        "bulkOffers": [],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 19189119,
+            "name": "Poco Loco",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/9/19189119/1846c7bfcaedef08a39a380195d00056_featured_v2.jpg",
+                "urlWithParams": "https://b.zmtcdn.com/data/pictures/9/19189119/1846c7bfcaedef08a39a380195d00056_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/9/19189119/ae306c1e33134217627b884edbff15e9_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.3",
+                "rating_text": "4.3",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "4,061",
+                "subtext": "REVIEWS",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "4.3",
+                        "reviewCount": "3,397",
+                        "reviewTextSmall": "3,397 Reviews",
+                        "subtext": "3,397 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "4.3",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.3",
+                        "reviewCount": "664",
+                        "reviewTextSmall": "664 Reviews",
+                        "subtext": "664 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.3",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹2,000 for two"
+            },
+            "cfo": {
+                "text": "₹400 for one"
+            },
+            "locality": {
+                "name": "Khar, Mumbai",
+                "address": "Ground Floor, Sangeet Samrat Naushad Ali Marg, 21st Road, Khar, Mumbai",
+                "localityUrl": "mumbai/khar-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzNcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/mexican/",
+                    "name": "Mexican"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODlcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/spanish/",
+                    "name": "Spanish"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/continental/",
+                    "name": "Continental"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/pizza/",
+                    "name": "Pizza"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTk4XCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/salad/",
+                    "name": "Salad"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/desserts/",
+                    "name": "Desserts"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/beverages/",
+                    "name": "Beverages"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹2,000 for two"
+            }
+        },
+        "order": [],
+        "gold": {
+            "instant": 10,
+            "welcome_offer": false,
+            "gold_offer": true,
+            "text": "Flat",
+            "offerValue": "10% OFF",
+            "isGoldIcon": true
+        },
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/mumbai/poco-loco-khar/info",
+            "clickActionDeeplink": ""
+        },
+        "distance": "7.1 km",
+        "isPromoted": true,
+        "promotedText": "Promoted",
+        "trackingData": [
+            {
+                "table_name": "jadtracking",
+                "payload": "{\"banner_id\":\"3033734\",\"bzone\":\"0\",\"campaign_id\":\"11927169\",\"category_id\":\"1\",\"location_type\":\"city\",\"location_id\":\"3\",\"display_page\":\"dineout_home\",\"entity_type\":\"RESTAURANT\",\"entity_id\":\"19189119\",\"isNewAd\":\"34\",\"ad_position\":\"13\",\"slider_position\":\"13\",\"slider_sequence\":\"13\",\"creative_id\":\"0\",\"collection_id\":\"0\",\"data\":\"{\\\"type\\\":\\\"boost\\\",\\\"original_rank\\\":83,\\\"boosted_rank\\\":13}\"}",
+                "event_names": {
+                    "tap": "{\"action\":\"click\"}",
+                    "impression": "{\"action\":\"impression\"}",
+                    "served": "{\"action\":\"serve\"}"
+                }
+            },
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"1b1f037b-c37d-4326-b52c-4de7be7591c7\",\"location_type\":\"delivery_cell\",\"location_id\":\"4316646509572521984\",\"page_type\":\"dineout\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19189119\",\"element_type\":\"listing\",\"rank\":13,\"metadata\":{\"is_ad\":\"true\"}}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [
+            {
+                "type": "booking_cta",
+                "text": "Book a Table",
+                "clickUrl": "/mumbai/poco-loco-khar/book"
+            },
+            {
+                "type": "chain_cta",
+                "text": "View all outlets",
+                "clickUrl": "/mumbai/restaurants/poco-loco?category=2"
+            }
+        ],
+        "promoOffer": "",
+        "checkBulkOffers": false,
+        "bulkOffers": [],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 20617250,
+            "name": "Pleo",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/0/20617250/26fe2ffc2db0c376c2cc1418d0f1c1c5_featured_v2.jpg",
+                "urlWithParams": "https://b.zmtcdn.com/data/pictures/0/20617250/26fe2ffc2db0c376c2cc1418d0f1c1c5_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/0/20617250/294c2389c38e3302876e4faa838d5a46_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.2",
+                "rating_text": "4.2",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1,317",
+                "subtext": "REVIEW",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "4.3",
+                        "reviewCount": "1,310",
+                        "reviewTextSmall": "1,310 Reviews",
+                        "subtext": "1,310 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "4.3",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.0",
+                        "reviewCount": "7",
+                        "reviewTextSmall": "7 Reviews",
+                        "subtext": "7 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.0",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹1,500 for two"
+            },
+            "cfo": {
+                "text": "₹400 for one"
+            },
+            "locality": {
+                "name": "Bandra East, Mumbai",
+                "address": "G2-A, Plot 4207, Ground Floor, Building 18, G Block, Trade Centre, Bandra East, Mumbai",
+                "localityUrl": "mumbai/bandra-east-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/pizza/",
+                    "name": "Pizza"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/italian/",
+                    "name": "Italian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiM1wiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/asian/",
+                    "name": "Asian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/continental/",
+                    "name": "Continental"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzhcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/european/",
+                    "name": "European"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/north-indian/",
+                    "name": "North Indian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTc3XCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/sushi/",
+                    "name": "Sushi"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/desserts/",
+                    "name": "Desserts"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹1,500 for two"
+            }
+        },
+        "order": [],
+        "gold": {
+            "instant": 10,
+            "welcome_offer": false,
+            "gold_offer": true,
+            "text": "Flat",
+            "offerValue": "10% OFF",
+            "isGoldIcon": true
+        },
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/mumbai/pleo-bandra-east/info",
+            "clickActionDeeplink": ""
+        },
+        "distance": "6.4 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"1b1f037b-c37d-4326-b52c-4de7be7591c7\",\"location_type\":\"delivery_cell\",\"location_id\":\"4316646509572521984\",\"page_type\":\"dineout\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"20617250\",\"element_type\":\"listing\",\"rank\":14}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [
+            {
+                "type": "booking_cta",
+                "text": "Book a Table",
+                "clickUrl": "/mumbai/pleo-bandra-east/book"
+            }
+        ],
+        "promoOffer": "",
+        "checkBulkOffers": false,
+        "bulkOffers": [],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 20297585,
+            "name": "Cha",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/5/20297585/fcfcf138ea679e84fae37965b963823a_featured_v2.jpg",
+                "urlWithParams": "https://b.zmtcdn.com/data/pictures/5/20297585/fcfcf138ea679e84fae37965b963823a_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/5/20297585/3290a2551001df69170ea7f9b34d26ae_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.4",
+                "rating_text": "4.4",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1,495",
+                "subtext": "REVIEW",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "4.5",
+                        "reviewCount": "1,221",
+                        "reviewTextSmall": "1,221 Reviews",
+                        "subtext": "1,221 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "4.5",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "800"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.3",
+                        "reviewCount": "274",
+                        "reviewTextSmall": "274 Reviews",
+                        "subtext": "274 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.3",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹650 for two"
+            },
+            "cfo": {
+                "text": "₹400 for one"
+            },
+            "locality": {
+                "name": "Palladium Mall, Lower Parel, Mumbai",
+                "address": "S 1-4, Second Floor, Phoenix Mall, Block 1, Senapati Bapat Marg, Lower Parel, Mumbai",
+                "localityUrl": "mumbai/restaurants/in/palladium-mall-lower-parel"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiM1wiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/asian/",
+                    "name": "Asian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/chinese/",
+                    "name": "Chinese"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹650 for two"
+            }
+        },
+        "order": [],
+        "gold": {
+            "instant": 10,
+            "welcome_offer": false,
+            "gold_offer": true,
+            "text": "Flat",
+            "offerValue": "10% OFF",
+            "isGoldIcon": true
+        },
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/mumbai/cha-lower-parel/info",
+            "clickActionDeeplink": ""
+        },
+        "distance": "4.1 km",
+        "isPromoted": true,
+        "promotedText": "Promoted",
+        "trackingData": [
+            {
+                "table_name": "jadtracking",
+                "payload": "{\"banner_id\":\"2996584\",\"bzone\":\"0\",\"campaign_id\":\"11889946\",\"category_id\":\"1\",\"location_type\":\"city\",\"location_id\":\"3\",\"display_page\":\"dineout_home\",\"entity_type\":\"RESTAURANT\",\"entity_id\":\"20297585\",\"isNewAd\":\"34\",\"ad_position\":\"15\",\"slider_position\":\"15\",\"slider_sequence\":\"15\",\"creative_id\":\"0\",\"collection_id\":\"0\",\"data\":\"{\\\"type\\\":\\\"boost\\\",\\\"original_rank\\\":415,\\\"boosted_rank\\\":15}\"}",
+                "event_names": {
+                    "tap": "{\"action\":\"click\"}",
+                    "impression": "{\"action\":\"impression\"}",
+                    "served": "{\"action\":\"serve\"}"
+                }
+            },
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"1b1f037b-c37d-4326-b52c-4de7be7591c7\",\"location_type\":\"delivery_cell\",\"location_id\":\"4316646509572521984\",\"page_type\":\"dineout\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"20297585\",\"element_type\":\"listing\",\"rank\":15,\"metadata\":{\"is_ad\":\"true\"}}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [
+            {
+                "type": "booking_cta",
+                "text": "Book a Table",
+                "clickUrl": "/mumbai/cha-lower-parel/book"
+            }
+        ],
+        "promoOffer": "",
+        "checkBulkOffers": false,
+        "bulkOffers": [],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 20842855,
+            "name": "Gigi",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/5/20842855/eae6343967aacf033f462969f385a67d_featured_v2.jpg",
+                "urlWithParams": "https://b.zmtcdn.com/data/pictures/5/20842855/eae6343967aacf033f462969f385a67d_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A"
+            },
+            "o2FeaturedImage": {
+                "url": false
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.0",
+                "rating_text": "4.0",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "179",
+                "subtext": "REVIEWS",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "4.0",
+                        "reviewCount": "179",
+                        "reviewTextSmall": "179 Reviews",
+                        "subtext": "179 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "4.0",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "",
+                        "reviewCount": "0",
+                        "reviewTextSmall": "0 Reviews",
+                        "subtext": "Does not offer Delivery",
+                        "color": "",
+                        "ratingV2": "-",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "grey",
+                            "tint": "500"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹2,500 for two"
+            },
+            "cfo": {
+                "text": "₹400 for one"
+            },
+            "locality": {
+                "name": "Linking Road, Bandra West, Mumbai",
+                "address": "Unit 3, Ground Floor, Unit 1, First Floor, Supreme Headquarters, Linking Road, Bandra West, Mumbai",
+                "localityUrl": "mumbai/linking-road-bandra-west-restaurants"
+            },
+            "timing": {
+                "text": "Closes in 1 hour 44 minutes",
+                "color": "#e5521f"
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzhcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/european/",
+                    "name": "European"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNjBcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/japanese/",
+                    "name": "Japanese"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹2,500 for two"
+            }
+        },
+        "order": [],
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/mumbai/gigi-linking-road-bandra-west/info",
+            "clickActionDeeplink": ""
+        },
+        "distance": "6 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"1b1f037b-c37d-4326-b52c-4de7be7591c7\",\"location_type\":\"delivery_cell\",\"location_id\":\"4316646509572521984\",\"page_type\":\"dineout\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"20842855\",\"element_type\":\"listing\",\"rank\":16}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [
+            {
+                "type": "booking_cta",
+                "text": "Book a Table",
+                "clickUrl": "/mumbai/gigi-linking-road-bandra-west/book"
+            }
+        ],
+        "promoOffer": "",
+        "checkBulkOffers": false,
+        "bulkOffers": [],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 20454636,
+            "name": "Caffe Allora",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/6/20454636/7764a13a2c864011b6155eb32dc28e3b_featured_v2.jpg",
+                "urlWithParams": "https://b.zmtcdn.com/data/pictures/6/20454636/7764a13a2c864011b6155eb32dc28e3b_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/6/20454636/77b85ac594b8e83c8aa79b7ce50a2a88_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.2",
+                "rating_text": "4.2",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1,010",
+                "subtext": "REVIEW",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "4.5",
+                        "reviewCount": "790",
+                        "reviewTextSmall": "790 Reviews",
+                        "subtext": "790 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "4.5",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "800"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "3.8",
+                        "reviewCount": "220",
+                        "reviewTextSmall": "220 Reviews",
+                        "subtext": "220 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "3.8",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "600"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹1,200 for two"
+            },
+            "cfo": {
+                "text": "₹400 for one"
+            },
+            "locality": {
+                "name": "Phoenix Palladium, Lower Parel, Mumbai",
+                "address": "2 & 3, Ground Floor, Block 1, Phoenix Mall, Senapati Bapat Marg, Lower Parel, Mumbai",
+                "localityUrl": "mumbai/restaurants/in/phoenix-palladium-lower-parel"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzBcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/cafes/",
+                    "name": "Cafe"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA0MFwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/coffee/",
+                    "name": "Coffee"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA2NFwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/pasta/",
+                    "name": "Pasta"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/pizza/",
+                    "name": "Pizza"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/italian/",
+                    "name": "Italian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/beverages/",
+                    "name": "Beverages"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹1,200 for two"
+            }
+        },
+        "order": [],
+        "gold": {
+            "instant": 10,
+            "welcome_offer": false,
+            "gold_offer": true,
+            "text": "Flat",
+            "offerValue": "10% OFF",
+            "isGoldIcon": true
+        },
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/mumbai/caffe-allora-1-lower-parel/info",
+            "clickActionDeeplink": ""
+        },
+        "distance": "4.1 km",
+        "isPromoted": true,
+        "promotedText": "Promoted",
+        "trackingData": [
+            {
+                "table_name": "jadtracking",
+                "payload": "{\"banner_id\":\"2996524\",\"bzone\":\"0\",\"campaign_id\":\"11889886\",\"category_id\":\"1\",\"location_type\":\"city\",\"location_id\":\"3\",\"display_page\":\"dineout_home\",\"entity_type\":\"RESTAURANT\",\"entity_id\":\"20454636\",\"isNewAd\":\"34\",\"ad_position\":\"17\",\"slider_position\":\"17\",\"slider_sequence\":\"17\",\"creative_id\":\"0\",\"collection_id\":\"0\",\"data\":\"{\\\"type\\\":\\\"boost\\\",\\\"original_rank\\\":453,\\\"boosted_rank\\\":17}\"}",
+                "event_names": {
+                    "tap": "{\"action\":\"click\"}",
+                    "impression": "{\"action\":\"impression\"}",
+                    "served": "{\"action\":\"serve\"}"
+                }
+            },
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"1b1f037b-c37d-4326-b52c-4de7be7591c7\",\"location_type\":\"delivery_cell\",\"location_id\":\"4316646509572521984\",\"page_type\":\"dineout\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"20454636\",\"element_type\":\"listing\",\"rank\":17,\"metadata\":{\"is_ad\":\"true\"}}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [
+            {
+                "type": "booking_cta",
+                "text": "Book a Table",
+                "clickUrl": "/mumbai/caffe-allora-1-lower-parel/book"
+            }
+        ],
+        "promoOffer": "",
+        "checkBulkOffers": false,
+        "bulkOffers": [],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 20786993,
+            "name": "Yuhi",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/3/20786993/21422a8a16c9775f162d915e5d18ebdc_featured_v2.jpg",
+                "urlWithParams": "https://b.zmtcdn.com/data/pictures/3/20786993/21422a8a16c9775f162d915e5d18ebdc_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/3/20786993/d4b5c1afd3e2f904817db9792538638f_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.1",
+                "rating_text": "4.1",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "440",
+                "subtext": "REVIEWS",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "4.2",
+                        "reviewCount": "434",
+                        "reviewTextSmall": "434 Reviews",
+                        "subtext": "434 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "4.2",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.0",
+                        "reviewCount": "6",
+                        "reviewTextSmall": "6 Reviews",
+                        "subtext": "6 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.0",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹1,800 for two"
+            },
+            "cfo": {
+                "text": "₹400 for one"
+            },
+            "locality": {
+                "name": "Powai, Mumbai",
+                "address": "8th Floor, A Wing, Powai, Mumbai",
+                "localityUrl": "mumbai/powai-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiM1wiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/asian/",
+                    "name": "Asian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/chinese/",
+                    "name": "Chinese"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTc3XCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/sushi/",
+                    "name": "Sushi"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/italian/",
+                    "name": "Italian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/north-indian/",
+                    "name": "North Indian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiN1wiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/biryani/",
+                    "name": "Biryani"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/pizza/",
+                    "name": "Pizza"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/desserts/",
+                    "name": "Desserts"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹1,800 for two"
+            }
+        },
+        "order": [],
+        "gold": {
+            "instant": 15,
+            "welcome_offer": false,
+            "gold_offer": true,
+            "text": "Flat",
+            "offerValue": "15% OFF",
+            "isGoldIcon": true
+        },
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/mumbai/yuhi-powai/info",
+            "clickActionDeeplink": ""
+        },
+        "distance": "11.9 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"1b1f037b-c37d-4326-b52c-4de7be7591c7\",\"location_type\":\"delivery_cell\",\"location_id\":\"4316646509572521984\",\"page_type\":\"dineout\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"20786993\",\"element_type\":\"listing\",\"rank\":18}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [
+            {
+                "type": "booking_cta",
+                "text": "Book a Table",
+                "clickUrl": "/mumbai/yuhi-powai/book"
+            }
+        ],
+        "promoOffer": "",
+        "checkBulkOffers": false,
+        "bulkOffers": [],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 18354537,
+            "name": "KOKO",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/7/18354537/f07cb477c55ad375413b4bb3d7e70b72_featured_v2.jpg",
+                "urlWithParams": "https://b.zmtcdn.com/data/pictures/7/18354537/f07cb477c55ad375413b4bb3d7e70b72_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/7/18354537/3e53b94cd9085deb87bd2220adc7fd40_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.5",
+                "rating_text": "4.5",
+                "rating_subtitle": "Excellent",
+                "rating_color": "3F7E00",
+                "votes": "1,994",
+                "subtext": "REVIEW",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "4.7",
+                        "reviewCount": "1,342",
+                        "reviewTextSmall": "1,342 Reviews",
+                        "subtext": "1,342 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "4.7",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "800"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.3",
+                        "reviewCount": "652",
+                        "reviewTextSmall": "652 Reviews",
+                        "subtext": "652 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.3",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹3,500 for two"
+            },
+            "cfo": {
+                "text": "₹400 for one"
+            },
+            "locality": {
+                "name": "Kamala Mills Compound, Mumbai",
+                "address": "C 2, Ground Floor, Trade World, Kamala Mills, SB Road, Near Radio Mirchi Office, Lower Parel, Mumbai",
+                "localityUrl": "mumbai/restaurants/in/kamala-mills-compound"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiM1wiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/asian/",
+                    "name": "Asian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTc3XCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/sushi/",
+                    "name": "Sushi"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/desserts/",
+                    "name": "Desserts"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/chinese/",
+                    "name": "Chinese"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/beverages/",
+                    "name": "Beverages"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹3,500 for two"
+            }
+        },
+        "order": [],
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/mumbai/koko-1-lower-parel/info",
+            "clickActionDeeplink": ""
+        },
+        "distance": "3.4 km",
+        "isPromoted": true,
+        "promotedText": "Promoted",
+        "trackingData": [
+            {
+                "table_name": "jadtracking",
+                "payload": "{\"banner_id\":\"2976014\",\"bzone\":\"0\",\"campaign_id\":\"11869371\",\"category_id\":\"1\",\"location_type\":\"city\",\"location_id\":\"3\",\"display_page\":\"dineout_home\",\"entity_type\":\"RESTAURANT\",\"entity_id\":\"18354537\",\"isNewAd\":\"34\",\"ad_position\":\"19\",\"slider_position\":\"19\",\"slider_sequence\":\"19\",\"creative_id\":\"0\",\"collection_id\":\"0\",\"data\":\"{\\\"type\\\":\\\"boost\\\",\\\"original_rank\\\":178,\\\"boosted_rank\\\":19}\"}",
+                "event_names": {
+                    "tap": "{\"action\":\"click\"}",
+                    "impression": "{\"action\":\"impression\"}",
+                    "served": "{\"action\":\"serve\"}"
+                }
+            },
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"1b1f037b-c37d-4326-b52c-4de7be7591c7\",\"location_type\":\"delivery_cell\",\"location_id\":\"4316646509572521984\",\"page_type\":\"dineout\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"18354537\",\"element_type\":\"listing\",\"rank\":19,\"metadata\":{\"is_ad\":\"true\"}}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [
+            {
+                "type": "booking_cta",
+                "text": "Book a Table",
+                "clickUrl": "/mumbai/koko-1-lower-parel/book"
+            }
+        ],
+        "promoOffer": "",
+        "checkBulkOffers": false,
+        "bulkOffers": [],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 20111786,
+            "name": "Someplace Else",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/6/20111786/6292f3cc97f361292405bece46eadb10_featured_v2.jpg",
+                "urlWithParams": "https://b.zmtcdn.com/data/pictures/6/20111786/6292f3cc97f361292405bece46eadb10_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A"
+            },
+            "o2FeaturedImage": {
+                "url": false
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.3",
+                "rating_text": "4.3",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1,654",
+                "subtext": "REVIEW",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "4.3",
+                        "reviewCount": "1,654",
+                        "reviewTextSmall": "1,654 Reviews",
+                        "subtext": "1,654 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "4.3",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "",
+                        "reviewCount": "0",
+                        "reviewTextSmall": "0 Reviews",
+                        "subtext": "Does not offer Delivery",
+                        "color": "",
+                        "ratingV2": "-",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "grey",
+                            "tint": "500"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹2,500 for two"
+            },
+            "cfo": {
+                "text": "₹400 for one"
+            },
+            "locality": {
+                "name": "Jio World Drive, Bandra Kurla Complex, Mumbai",
+                "address": "Level 2, Jio World Drive, Maker Maxity, Bandra Kurla Complex, Mumbai",
+                "localityUrl": "mumbai/restaurants/in/jio-world-drive-bandra-kurla-complex"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/north-indian/",
+                    "name": "North Indian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/continental/",
+                    "name": "Continental"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiM1wiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/asian/",
+                    "name": "Asian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTc3XCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/sushi/",
+                    "name": "Sushi"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹2,500 for two"
+            }
+        },
+        "order": [],
+        "gold": {
+            "instant": 20,
+            "welcome_offer": false,
+            "gold_offer": true,
+            "text": "Flat",
+            "offerValue": "20% OFF",
+            "isGoldIcon": true
+        },
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/mumbai/someplace-else-bandra-kurla-complex/info",
+            "clickActionDeeplink": ""
+        },
+        "distance": "4 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"1b1f037b-c37d-4326-b52c-4de7be7591c7\",\"location_type\":\"delivery_cell\",\"location_id\":\"4316646509572521984\",\"page_type\":\"dineout\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"20111786\",\"element_type\":\"listing\",\"rank\":20}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [
+            {
+                "type": "booking_cta",
+                "text": "Book a Table",
+                "clickUrl": "/mumbai/someplace-else-bandra-kurla-complex/book"
+            }
+        ],
+        "promoOffer": "",
+        "checkBulkOffers": false,
+        "bulkOffers": [],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 19944969,
+            "name": "Nho Saigon",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/9/19944969/cdac6d83a264d48cf331eef48fe966e0_featured_v2.jpg",
+                "urlWithParams": "https://b.zmtcdn.com/data/pictures/9/19944969/cdac6d83a264d48cf331eef48fe966e0_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/9/19944969/e0e17caf9f2d13d527e51f3a52ba4351_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.3",
+                "rating_text": "4.3",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1,453",
+                "subtext": "REVIEW",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "4.5",
+                        "reviewCount": "1,115",
+                        "reviewTextSmall": "1,115 Reviews",
+                        "subtext": "1,115 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "4.5",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "800"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.1",
+                        "reviewCount": "338",
+                        "reviewTextSmall": "338 Reviews",
+                        "subtext": "338 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.1",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹2,000 for two"
+            },
+            "cfo": {
+                "text": "₹400 for one"
+            },
+            "locality": {
+                "name": "Jet Airways Godrej, Bandra Kurla Complex, Mumbai",
+                "address": "Plot C 68, Ground Floor, Jet Airways Building, Bandra Kurla Complex, Mumbai",
+                "localityUrl": "mumbai/restaurants/in/jet-airways-godrej-bandra-kurla-complex"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTlcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/vietnamese/",
+                    "name": "Vietnamese"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiM1wiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/asian/",
+                    "name": "Asian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcxXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/finger-food/",
+                    "name": "Finger Food"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/mumbai/restaurants/thai/",
+                    "name": "Thai"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/beverages/",
+                    "name": "Beverages"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                    "url": "https://www.zomato.com/mumbai/restaurants/desserts/",
+                    "name": "Desserts"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹2,000 for two"
+            }
+        },
+        "order": [],
+        "gold": {
+            "instant": 10,
+            "welcome_offer": false,
+            "gold_offer": true,
+            "text": "Flat",
+            "offerValue": "10% OFF",
+            "isGoldIcon": true
+        },
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/mumbai/nho-saigon-1-bandra-kurla-complex/info",
+            "clickActionDeeplink": ""
+        },
+        "distance": "4.7 km",
+        "isPromoted": true,
+        "promotedText": "Promoted",
+        "trackingData": [
+            {
+                "table_name": "jadtracking",
+                "payload": "{\"banner_id\":\"3078421\",\"bzone\":\"0\",\"campaign_id\":\"11972008\",\"category_id\":\"1\",\"location_type\":\"city\",\"location_id\":\"3\",\"display_page\":\"dineout_home\",\"entity_type\":\"RESTAURANT\",\"entity_id\":\"19944969\",\"isNewAd\":\"34\",\"ad_position\":\"21\",\"slider_position\":\"21\",\"slider_sequence\":\"21\",\"creative_id\":\"0\",\"collection_id\":\"0\",\"data\":\"{\\\"type\\\":\\\"boost\\\",\\\"original_rank\\\":353,\\\"boosted_rank\\\":21}\"}",
+                "event_names": {
+                    "tap": "{\"action\":\"click\"}",
+                    "impression": "{\"action\":\"impression\"}",
+                    "served": "{\"action\":\"serve\"}"
+                }
+            },
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"1b1f037b-c37d-4326-b52c-4de7be7591c7\",\"location_type\":\"delivery_cell\",\"location_id\":\"4316646509572521984\",\"page_type\":\"dineout\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19944969\",\"element_type\":\"listing\",\"rank\":21,\"metadata\":{\"is_ad\":\"true\"}}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [
+            {
+                "type": "booking_cta",
+                "text": "Book a Table",
+                "clickUrl": "/mumbai/nho-saigon-1-bandra-kurla-complex/book"
+            }
+        ],
+        "promoOffer": "",
+        "checkBulkOffers": false,
+        "bulkOffers": [],
+        "isDisabled": false,
+        "bottomContainers": []
+    }
+]
