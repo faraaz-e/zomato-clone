@@ -13,7 +13,9 @@ const NavSection = () => {
           <div className="flex px-28">
             <Link
               href="/delivery"
-              className={pathname === "/delivery" ? "border-b-2 border-red-500" : ""}
+              className={
+                pathname === "/delivery" ? "border-b-2 border-red-500" : ""
+              }
             >
               <div className="flex px-4 py-1">
                 <div className="bg-yellow-100 p-4 rounded-full">
@@ -34,7 +36,7 @@ const NavSection = () => {
               }
             >
               <div className="flex px-4 py-1">
-                <div className="bg-blue-100 p-4 rounded-full">
+                <div className="bg-teal-100 p-4 rounded-full">
                   <img
                     src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png"
                     className="h-8 w-8"
@@ -45,6 +47,17 @@ const NavSection = () => {
                 </div>
               </div>
             </Link>
+            <div className="flex px-4 py-1">
+              <div className="bg-blue-100 p-4 rounded-full">
+                <img
+                  src="https://b.zmtcdn.com/data/o2_assets/855687dc64a5e06d737dae45b7f6a13b1616149818.png"
+                  className="h-8 w-8"
+                />
+              </div>
+              <div className="text-xl text-zinc-500 font-medium self-center px-2">
+                Nightlife
+              </div>
+            </div>
           </div>
         </div>
       </div>
