@@ -72,23 +72,51 @@ export const brandList = [
 
 export const restTypeList = [
   {
-    imgUrl: "https://b.zmtcdn.com/data/collections/2005d096ef8c890e8078cd591e9811bd_1702299198.jpg",
+    imgUrl:
+      "https://b.zmtcdn.com/data/collections/2005d096ef8c890e8078cd591e9811bd_1702299198.jpg",
     title: "Christmas Special Restaurants",
-    placesCount: "14"
+    placesCount: "14",
   },
   {
-    imgUrl: "https://b.zmtcdn.com/data/collections/8868e7345d624a79d5900711eb5f8d00_1696924693.png",
+    imgUrl:
+      "https://b.zmtcdn.com/data/collections/8868e7345d624a79d5900711eb5f8d00_1696924693.png",
     title: "Newly Opened Restaurants",
-    placesCount: "13"
+    placesCount: "13",
   },
   {
-    imgUrl: "https://b.zmtcdn.com/data/collections/1b191329f2c37a474c428131841d488b_1674826227.jpg",
+    imgUrl:
+      "https://b.zmtcdn.com/data/collections/1b191329f2c37a474c428131841d488b_1674826227.jpg",
     title: "Sea View Dining Places",
-    placesCount: "9"
+    placesCount: "9",
   },
   {
-    imgUrl: "https://b.zmtcdn.com/data/collections/2da2ac4aea6e3c8241ab7de09fddf173_1674823998.jpg",
+    imgUrl:
+      "https://b.zmtcdn.com/data/collections/2da2ac4aea6e3c8241ab7de09fddf173_1674823998.jpg",
     title: "Serene Rooftop Places",
-    placesCount: "22"
+    placesCount: "22",
   },
-]
+];
+
+export const navCardList = [
+  {
+    imgUrl:
+      "https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*",
+    title: "Order Online",
+    shortDescription: "Stay home and order to your doorstep",
+    link: "/delivery",
+  },
+  {
+    imgUrl:
+      "https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*",
+    title: "Dining",
+    shortDescription: "View the city's favourite dining venues",
+    link: "dine-out",
+  },
+  {
+    imgUrl:
+      "https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*",
+    title: "Nightlife and Clubs",
+    shortDescription: "Explore the city’s top nightlife outlets",
+    link: "/",
+  },
+];
