@@ -69,3 +69,26 @@ export const brandList = [
     deliveryTime: "36",
   },
 ];
+
+export const restTypeList = [
+  {
+    imgUrl: "https://b.zmtcdn.com/data/collections/2005d096ef8c890e8078cd591e9811bd_1702299198.jpg",
+    title: "Christmas Special Restaurants",
+    placesCount: "14"
+  },
+  {
+    imgUrl: "https://b.zmtcdn.com/data/collections/8868e7345d624a79d5900711eb5f8d00_1696924693.png",
+    title: "Newly Opened Restaurants",
+    placesCount: "13"
+  },
+  {
+    imgUrl: "https://b.zmtcdn.com/data/collections/1b191329f2c37a474c428131841d488b_1674826227.jpg",
+    title: "Sea View Dining Places",
+    placesCount: "9"
+  },
+  {
+    imgUrl: "https://b.zmtcdn.com/data/collections/2da2ac4aea6e3c8241ab7de09fddf173_1674823998.jpg",
+    title: "Serene Rooftop Places",
+    placesCount: "22"
+  },
+]
