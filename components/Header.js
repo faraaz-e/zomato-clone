@@ -1,13 +1,17 @@
+import Link from "next/link";
+
 const Header = () => {
   return (
     <>
       <div className="mx-auto max-w-7xl flex justify-center py-3 space-x-5">
         <div className="self-center">
-          <img
-            src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
-            className="w-32 h-auto"
-            alt="logo"
-          />
+          <Link href="/">
+            <img
+              src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
+              className="w-32 h-auto"
+              alt="logo"
+            />
+          </Link>
         </div>
         <div className="px-3 border rounded-lg flex drop-shadow-md bg-white">
           <div className="self-center px-1">
