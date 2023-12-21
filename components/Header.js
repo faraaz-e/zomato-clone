@@ -1,6 +1,11 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const Header = () => {
+  const [searchQuery, setSearchQuery] = useState("");
+
   return (
     <>
       <div className="mx-auto max-w-7xl flex justify-center py-3 space-x-5">
@@ -61,6 +66,8 @@ const Header = () => {
               type="text"
               className="w-96 py-3 px-2 border-none focus:outline-none"
               placeholder="Search for restaurant, cuisine or a dish"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
             />
           </div>
         </div>
