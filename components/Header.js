@@ -1,10 +1,27 @@
 "use client";
 
+import { SEARCH_QUERY_URL } from "@/utils/constants";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
+  const [suggestions, setSuggestions] = useState([]);
+
+  useEffect(() => {
+    // Debouncing
+    const timer = setTimeout(() => autoSuggestion(), 200);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [searchQuery]);
+
+  const autoSuggestion = async () => {
+    const searchUri = SEARCH_QUERY_URL + searchQuery; 
+    const searchResultsData = await fetch(searchUri, { mode: "no-cors" });
+    setSuggestions(searchResultsData);
+  };
 
   return (
     <>
