@@ -2,6 +2,7 @@ import NavCard from "@/components/NavCard";
 import { navCardList } from "@/utils/categoryData";
 import RestaurantType from "@/components/RestaurantType";
 import { restTypeList } from "@/utils/categoryData";
+import { HOMEPAGE_BANNER, HOMEPAGE_LOGO } from "@/utils/constants";
 
 export default function Home() {
   return (
@@ -9,13 +10,13 @@ export default function Home() {
       {/** Homepage banner */}
       <div className="relative">
         <img
-          src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png"
+          src={HOMEPAGE_BANNER}
           alt="Homepage banner"
           className="w-full h-[430px] object-cover"
         />
         <div className="absolute flex flex-col justify-center items-center w-full bottom-1/2">
           <img
-            src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png"
+            src={HOMEPAGE_LOGO}
             alt="logo"
             className="w-1/2 lg:w-1/5 h-auto"
           />
