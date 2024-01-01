@@ -56,6 +56,7 @@ const Header = () => {
               type="text"
               className="w-56 py-3 px-2 border-none focus:outline-0"
               placeholder="Mumbai"
+              readonly
             />
           </div>
 
