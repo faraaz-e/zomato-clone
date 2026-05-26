@@ -33,7 +33,7 @@ npm run dev
 
 ### Project Demo
 
-![video](https://github.com/user-attachments/assets/5ad1ce97-a736-412c-845a-435ca5c5a890)
+https://github.com/user-attachments/assets/5ad1ce97-a736-412c-845a-435ca5c5a890
 
 ### Project Screenshot
 
