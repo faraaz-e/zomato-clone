@@ -33,10 +33,10 @@ npm run dev
 
 ### Project Screenshot
 
-<img width="1600" height="739" alt="food-app-img-1" src="https://github.com/user-attachments/assets/c2b04fb3-afcc-4291-9765-1d8e6cbeb288" />
+![image](<img width="1600" height="739" alt="food-app-img-1" src="https://github.com/user-attachments/assets/c2b04fb3-afcc-4291-9765-1d8e6cbeb288" />)
 
-<img width="1600" height="739" alt="food-app-img-2" src="https://github.com/user-attachments/assets/3af4832e-243c-4b63-978e-2effae69361d" />
+![image](<img width="1600" height="739" alt="food-app-img-2" src="https://github.com/user-attachments/assets/3af4832e-243c-4b63-978e-2effae69361d" />)
 
-<img width="1600" height="739" alt="food-app-img-3" src="https://github.com/user-attachments/assets/3c4620a4-a2ba-454b-9936-15799809479d" />
+![image](<img width="1600" height="739" alt="food-app-img-3" src="https://github.com/user-attachments/assets/3c4620a4-a2ba-454b-9936-15799809479d" />)
 
 
