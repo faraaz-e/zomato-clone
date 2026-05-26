@@ -31,6 +31,10 @@ npm run dev
             - Name of the Restaurant, Cuisines, ratings, price, delivery time
 - Footer
 
+### Project Demo
+
+![video](https://github.com/user-attachments/assets/5ad1ce97-a736-412c-845a-435ca5c5a890)
+
 ### Project Screenshot
 
 ![image](https://github.com/user-attachments/assets/c2b04fb3-afcc-4291-9765-1d8e6cbeb288)
